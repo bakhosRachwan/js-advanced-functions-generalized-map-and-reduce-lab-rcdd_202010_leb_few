@@ -9,7 +9,7 @@ function map(arr, fun) {
 
 function reduce(src, cb, startpoint){
   
-    return src.reduce((acc, val) => {cb(acc, val), startpoint})
+    return src.reduce((acc, val) => {cb(acc, val)}, startpoint)
     
 
 }  
